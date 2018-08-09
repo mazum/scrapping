@@ -4,7 +4,8 @@
   "description": "Website Scrapping",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "lint": "eslint **\\*.js"
   },
   "author": "Abhishek Mazumder",
   "license": "ISC",
@@ -13,7 +14,10 @@
     "puppeteer": "^1.6.2"
   },
   "devDependencies": {
+    "babel-eslint": "^8.2.6",
     "chalk": "^2.4.1",
+    "eslint": "^5.3.0",
+    "eslint-plugin-jest": "^21.18.0",
     "is-docker": "^1.1.0",
     "jest-environment-node": "^23.4.0",
     "mkdirp": "^0.5.1",

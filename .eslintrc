@@ -1,0 +1,16 @@
+{
+  "extends": [
+    //"@crownbet/eslint-config-crownbet",
+    "plugin:jest/recommended"
+  ],
+  "parser": "babel-eslint",
+  "rules": {
+    "linebreak-style": 0,
+    "no-underscore-dangle": ["error", {
+      "allow": [
+        "__BROWSER__"
+      ]
+    }],
+    "no-console": "off"
+  }
+}

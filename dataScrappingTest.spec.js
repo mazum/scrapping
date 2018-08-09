@@ -1,5 +1,3 @@
-const puppeteer = require('puppeteer');
-
 jest.setTimeout(10000);
 
 test('Scrapping Test', async() => {
