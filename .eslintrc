@@ -1,6 +1,5 @@
 {
   "extends": [
-    //"@crownbet/eslint-config-crownbet",
     "plugin:jest/recommended"
   ],
   "parser": "babel-eslint",
