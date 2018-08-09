@@ -1,0 +1,20 @@
+# Editor directories
+.idea/
+.vscode/
+
+# test reports
+test-report.html
+junit.xml
+
+# Dependency directory
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temp directories
+.DS_Store
+*.tgz
+*.png
